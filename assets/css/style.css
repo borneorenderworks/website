@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #cc1616;
+  background: #5c3a91;
   width: 40px;
   height: 40px;
   transition: all 0.4s;
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #e72323;
+  background: #8a63d6;
   color: #fff;
 }
 
@@ -84,7 +84,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #cc1616;
+  border: 6px solid #5c3a91;
   border-top-color: #efefef;
   border-radius: 50%;
   width: 60px;
@@ -321,7 +321,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #cc1616;
+  color: #5c3a91;
 }
 
 @media (max-width: 991px) {
@@ -375,7 +375,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #cc1616;
+  color: #5c3a91;
   background: none;
 }
 
@@ -411,7 +411,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #cc1616;
+  color: #5c3a91;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -589,14 +589,16 @@ section {
 }
 
 .about .content h3 {
-  color: #eee;
+  color: #5c3a91;
   font-size: 45px;
   font-weight: 700;
+  margin-bottom: 25px;
 }
 
 .about .content p{
-  color: #eee;
+  color: #729efd;
   font-size: 20px;
+  margin-bottom: 25px;
 }
 
 .about .content ul {
@@ -611,11 +613,44 @@ section {
 .about .content ul i {
   font-size: 20px;
   /* padding-right: 4px; */
-  color: #cc1616;
+  color: #5c3a91;
 }
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .about .titleBox{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border: 1px #5c3a91 solid;
+  }
+
+  .about .title {
+    margin: 0 0 20px 0;
+    font-size: 26px;
+    line-height: 25px;
+  }
+  
+  .about .subTitle {
+    font-size: 16px;
+  }
+
+  .about .content {
+    padding: 0 20px;
+  }
+  
+  .about .content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about .content p{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
 }
 
 /*--------------------------------------------------------------

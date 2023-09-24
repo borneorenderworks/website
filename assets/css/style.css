@@ -569,7 +569,8 @@ section {
 .about .titleBox{
   background: rgba(0, 0, 0, 0.6);
   padding: 20px;
-  border: 1px white solid;
+  border: 1px #729efd solid;
+  box-shadow: 0px 2px 20px rgba(114, 158, 253, 0.3);
 }
 
 .about .title {
@@ -622,9 +623,7 @@ section {
 
 @media (max-width: 768px) {
   .about .titleBox{
-    background: rgba(0, 0, 0, 0.6);
     padding: 20px;
-    border: 1px #5c3a91 solid;
   }
 
   .about .title {

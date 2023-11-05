@@ -561,9 +561,10 @@ section {
 #about {
   width: 100%;
   /* height: calc(100vh - 110px); */
-  background: url("../images/Asset\ 4@4x.png") top center;
+  background: url("../images/BRW-Motif-bg.png") top center;
   background-size: cover;
   position: relative;
+  background-color: #000;
 }
 
 .about .titleBox{

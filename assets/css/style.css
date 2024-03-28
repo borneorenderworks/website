@@ -581,14 +581,30 @@ section {
   line-height: 56px;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
+  color: #8a63d6;
 }
 
 .about .subTitle {
-  color: #eee;
+  color: #729efd;
   text-align: center;
   font-size: 30px;
+  font-weight: 600;
 }
+
+.about .subTitle2 {
+  color: #729efd;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* @keyframes typing-animation {
+  from { width: 0; }
+}
+
+@keyframes backspacing-animation {
+  to { width: 0; }
+} */
 
 .about .content h3 {
   color: #5c3a91;
@@ -624,17 +640,22 @@ section {
 
 @media (max-width: 768px) {
   .about .titleBox{
-    padding: 20px;
+    width: 88%;
+    padding: 20px 10px 10px 10px;
   }
 
   .about .title {
     margin: 0 0 20px 0;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 25px;
   }
   
   .about .subTitle {
-    font-size: 16px;
+    font-size: 20px;
+  }
+
+  .about .subTitle2 {
+    font-size: 20px;
   }
 
   .about .content {

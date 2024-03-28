@@ -653,6 +653,22 @@ section {
   
 }
 
+.animated-image {
+  animation: moveUpDown 1.5s infinite alternate; /* Adjust duration as needed */
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px); /* Adjust distance of movement */
+  }
+}
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
